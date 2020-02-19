@@ -1,0 +1,87 @@
+{
+  "questions": [
+    {
+      "question": "Верно ли, что null == undefined?",
+      "rightId": 0,
+      "answers": [
+        {
+          "id": 0,
+          "value": "Да"
+        },
+        {
+          "id": 1,
+          "value": "Нет"
+        }
+      ]
+    },
+    {
+      "question": "Выберите правильные варианты объявления массива, то есть такие, в результате которых мы получаем массив из двух чисел 1 и 2.",
+      "rightId": [
+        0,
+        1
+      ],
+      "answers": [
+        {
+          "id": 0,
+          "value": "new Array.prototype.constructor(1, 2)"
+        },
+        {
+          "id": 1,
+          "value": "new Array(1, 2)"
+        },
+        {
+          "id": 2,
+          "value": "Array[1, 2]"
+        },
+        {
+          "id": 3,
+          "value": "Все варианты правильные"
+        }
+      ]
+    },
+    {
+      "question": "Чему равна сумма [ ] + 1 + 2?",
+      "rightId": 3,
+      "answers": [
+        {
+          "id": 0,
+          "value": "1"
+        },
+        {
+          "id": 1,
+          "value": "NaN"
+        },
+        {
+          "id": 2,
+          "value": "undefined"
+        },
+        {
+          "id": 3,
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "question": "Чему равно 0 || 1 && 2 || 3 ?",
+      "answers": "2"
+    },
+    {
+      "question": "Сколько В JavaScript типов данных?",
+      "rightId": 0,
+      "answers": [
+        {
+          "id": 0,
+          "value": "7"
+        },
+        {
+          "id": 1,
+          "value": "6"
+        },
+        {
+          "id": 2,
+          "value": "8"
+        }
+      ]
+    }
+  ]
+}
