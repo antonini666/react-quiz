@@ -15,7 +15,7 @@ export default class App extends Component {
   };
 
   async componentDidMount() {
-    const url = "https://api.jsonbin.io/b/5eba9ec5a47fdd6af161f3a1";
+    const url = "https://api.jsonbin.io/b/5eba9f5f47a2266b14773216";
     const response = await fetch(url);
     const data = await response.json();
     setTimeout(() => {
